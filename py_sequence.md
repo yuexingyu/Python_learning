@@ -47,7 +47,7 @@ ValueError: too many values to unpack (expected 2)
 ```
 这种解压序列的方式可以用在任何可迭代对象上面，而不仅仅是列表或者元组。 包括字符串，文件对象，迭代器和生成器。
 <p>代码示例：</p>
-```Python
+``` python
 >>> s = "Hello"
 >>> a,b,c,d,e=s
 >>> a
@@ -56,7 +56,6 @@ ValueError: too many values to unpack (expected 2)
 'e'
 >>> c
 'l'
->>>
 >>> d
 'l'
 >>> e
