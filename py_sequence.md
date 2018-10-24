@@ -46,7 +46,7 @@ ValueError                                Traceback (most recent call last)
 ValueError: too many values to unpack (expected 2)
 ```
 这种解压序列的方式可以用在任何可迭代对象上面，而不仅仅是列表或者元组。 包括字符串，文件对象，迭代器和生成器。
-<p>代码示例：
+<p>代码示例：</p>
 ```python
 >>> s = "Hello"
 >>> a,b,c,d,e=s
@@ -62,6 +62,7 @@ ValueError: too many values to unpack (expected 2)
 >>> e
 'o'
 ```
+
 ## 解压可迭代对象赋值给多个变量
 ### 问题
 如果一个可迭代对象的元素个数超过变量个数时，会抛出一个 ValueError 。 那么怎样才能从这个可迭代对象中解压出 N 个元素出来？
