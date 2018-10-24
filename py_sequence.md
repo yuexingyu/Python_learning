@@ -26,9 +26,12 @@ Python的变量可分为数字型和非数字型。<b>非数字型变量包括</
 ```python
 p = ["python", "version", 3.6]
 a, b, c = p
-print(F"a={a},b={b},c={c}")```
+print(F"a={a},b={b},c={c}")
+```
 运行结果：
-``` a=python,b=version,c=3.6 ```
+```
+a=python,b=version,c=3.6
+```
 
 当变量个数和序列元素的个数不匹配时，就会出现ValueError错误。代码示例：
 ```python
